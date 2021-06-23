@@ -12,5 +12,46 @@ body{
         display: none;
     }
 
-    
+    .mobile{
+        background: #f3f3f3;
+        padding: 10px;
+    }
+
+    .navmobile {
+        display: flex;
+        width: 100%;
+    }
+
+    .nav {
+
+    }
+
+    .logo {
+        width: auto;
+        margin-right:auto;
+    }
+    .nav > img {
+        width: 30px;
+        margin-left: auto;
+        transition: transform cubic-bezier(0.215, 0.610, 0.355, 1) 1s;
+    }
+
+    .nav > img:hover{
+        transform: rotate(90deg);
+    }
+
+    .links {
+        padding: 10px;
+        width: auto;
+        background: #f3f3f3;
+    }
+
+    .links ul {
+        text-decoration: none;
+    }
+
+    .links ul a {
+        text-decoration: none;
+
+    }
 }

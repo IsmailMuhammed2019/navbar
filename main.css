@@ -40,18 +40,25 @@ body{
         transform: rotate(90deg);
     }
 
-    .links {
-        padding: 10px;
+    .link {
         width: auto;
         background: #f3f3f3;
     }
 
-    .links ul {
+    .link ul {
         text-decoration: none;
+        
     }
 
-    .links ul a {
+    .link > ul > a {
         text-decoration: none;
 
+
     }
+
+    .link > ul > a > li {
+        list-style-type: none;
+        margin: 10px 0;
+    }
+
 }

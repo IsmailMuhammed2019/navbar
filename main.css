@@ -21,11 +21,6 @@ body{
         display: flex;
         width: 100%;
     }
-
-    .nav {
-
-    }
-
     .logo {
         width: auto;
         margin-right:auto;
@@ -34,6 +29,7 @@ body{
         width: 30px;
         margin-left: auto;
         transition: transform cubic-bezier(0.215, 0.610, 0.355, 1) 1s;
+        cursor: pointer;
     }
 
     .nav > img:hover{
@@ -43,6 +39,7 @@ body{
     .link {
         width: auto;
         background: #f3f3f3;
+        display: none;
     }
 
     .link ul {
@@ -59,6 +56,15 @@ body{
     .link > ul > a > li {
         list-style-type: none;
         margin: 10px 0;
+        font-size: large;
+        color: black;
+        font-weight: bolder;
+        transition: transform cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
+    }
+
+    .link > ul > a > li:hover{
+        color: grey;
+        transform:translateX(12px);
     }
 
 }
